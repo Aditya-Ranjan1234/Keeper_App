@@ -1,26 +1,42 @@
-# Create React App
+# Keeper App
 
-This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site that can be deployed to Vercel with zero configuration.
+Keeper is a simple and intuitive note-taking application designed to help you organize your thoughts, ideas, and tasks effortlessly.
 
-## Deploy Your Own
+## Features
 
-Deploy your own Create React App project with Vercel.
+- **Create Notes:** Easily create new notes with a title and content.
+- **Edit Notes:** Edit your notes anytime to update or add more information.
+- **Delete Notes:** Remove notes you no longer need with just a click.
+- **User-Friendly Interface:** Intuitive design for a smooth user experience.
+- **Responsive Design:** Access and use Keeper on any device - desktop, tablet, or mobile.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/create-react-app&template=create-react-app)
+## Getting Started
 
-_Live Example: https://create-react-template.vercel.app/_
+To get started with Keeper, follow these steps:
 
-## Available Scripts
+1. **Clone the Repository:**
+   ```
+   git clone https://github.com/Aditya-Ranjan1234/Keeper_App.git
+   ```
+2. **Install Dependencies:**
+   ```
+   cd Keeper_App
+   npm install
+   ```
+3. **Run the Application:**
+   ```
+   npm start
+   ```
 
-In the project directory, you can run:
+## Technologies Used
 
-### `npm start`
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** Node.js, Express.js
+- **Framework:** React.js
 
-Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Contributing
 
-The page will reload when you make changes. You may also see any lint errors in the console.
-
-### `npm test`
+Contributions are welcome! If you find any bugs or have suggestions for improvement, feel free to open an issue or submit a pull request.
 
 Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
