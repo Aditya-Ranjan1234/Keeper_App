@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import AddIcon from "@material-ui/icons/add";
-import Fab from "@material-ui/core/fab";
-import Zoom from "@material-ui/core/zoom";
+import AddIcon from '@mui/icons-material/Add';
+import Fab from '@mui/material/Fab';
+import Fab from '@mui/material/Zoom';
 
 function CreateArea(props) {
   const [isExpanded, setExpanded] = useState(false);
