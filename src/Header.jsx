@@ -1,5 +1,5 @@
 import React from "react";
-import HighlightIcon from "@material-ui/icons/Highlight";
+import HighlightIcon from "@material-ui/icons/highlight";
 
 function Header() {
   return (
