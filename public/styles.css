@@ -3,9 +3,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 html {
   font-family: "Montserrat", sans-serif;
 }
+
 body {
   background: radial-gradient(circle, #d1e346 40%, transparent 41%),
     radial-gradient(circle at bottom left, #d1e346 20%, transparent 21%),
@@ -16,13 +18,20 @@ body {
   background-color: #ffffff;
   opacity: 1;
   padding: 0 16px;
+  margin: 0;
+  overflow-x: hidden;
 }
 
 header {
   background-color: hsl(67, 77%, 36%);
-  margin: auto -16px;
-  padding: 16px 32px;
+  padding: 16px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
 }
 
 header h1 {
